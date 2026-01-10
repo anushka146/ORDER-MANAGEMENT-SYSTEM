@@ -5,8 +5,8 @@
 #include <limits>//to clear input buffer safely.
 using namespace std;
 
-int getIntInput(string prompt);
-double getDoubleInput(string prompt);
+int getIntInput(string prompt);// avoids crashes when user enters non-numeric input
+double getDoubleInput(string prompt);//
 void createOrder();
 void cancelOrder();
 void updateStatus();
