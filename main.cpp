@@ -42,8 +42,8 @@ int main() {
         cout << "\n4. Display Orders";
         cout << "\n5. Sort Orders by Price";
         cout << "\n6. Exit";
-        cout << "\nEnter choice: ";
-        cin >> choice;
+        choice = getIntInput("Enter choice: ");
+
        
 
         switch (choice) {
